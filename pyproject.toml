@@ -1,0 +1,24 @@
+[project]
+name = "car-price-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.119.0",
+    "mlflow>=3.5.0",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "pickle-mixin>=1.0.2",
+    "pydantic>=2.12.2",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.50.0",
+    "uvicorn>=0.37.0",
+    "xgboost>=3.0.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.0.1",
+    "jupyter>=1.1.1",
+]
